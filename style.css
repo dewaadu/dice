@@ -3,25 +3,44 @@ img{
     position: absolute;
     top: 200px;
     left: 540px;
+}button{
+    position: absolute;
+}.btn-new{
+    top: 160px;
+    left: 565px;
+}.btn-roll{
+    top: 410px;
+    left: 580px;
+}.btn-hold{
+    top: 450px;
+    left: 580px;
 }
 .wrapper{
     margin-top: 150px;
     margin-left: 290px;
+    font-size: 30px;
 }.player-0-panel{
+    padding-top: 40px;
     border: 1px solid;
     width: 30%;
     text-align: center;
 }.player-1-panel{
+    padding-top: 40px;
     border: 1px solid;
-    width: 30%;
+    width: 25%;
     position: absolute;
     top: 150px;
-    right: 320px;
+    right: 385px;
     text-align: center;
 }
 .player-current-box{
-    padding-top: 130px;
+    margin-top: 130px;
+    background-color: red;
+    width: 30%;
+    margin-left: 113px;
 }
 .active{
     background-color: aqua;
+}.player-score{
+    margin-top: 20px;
 }
