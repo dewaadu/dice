@@ -1,0 +1,27 @@
+img{
+    width: 8%;
+    position: absolute;
+    top: 200px;
+    left: 540px;
+}
+.wrapper{
+    margin-top: 150px;
+    margin-left: 290px;
+}.player-0-panel{
+    border: 1px solid;
+    width: 30%;
+    text-align: center;
+}.player-1-panel{
+    border: 1px solid;
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    right: 320px;
+    text-align: center;
+}
+.player-current-box{
+    padding-top: 130px;
+}
+.active{
+    background-color: aqua;
+}
